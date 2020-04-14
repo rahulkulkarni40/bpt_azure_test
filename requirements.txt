@@ -3,4 +3,3 @@ flask_cors
 pandas
 requests
 azure.storage
-azure.cosmosdb.table
