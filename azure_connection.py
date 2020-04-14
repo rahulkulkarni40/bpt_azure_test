@@ -8,8 +8,8 @@ Created on Mon Apr 13 11:43:34 2020
 from azure.storage.table import TableService, Entity
 import pandas as pd
 
-acc_name = 'cloudshell1616726778'
-acc_key = 'EN22MEbUMKghbQ14H7VxdX7Ij2mae8X8hMobGkRgpSGhFtfVoaOnywW5mYeOwoDLPFgytiwyIdpbCAe9gd82Gg==' 
+acc_name = 'cloudshell458298762'
+acc_key = '0SfcSQaHWGvnjnbJwoWe6QSqBibw4AvRzJVaAaF3bAXsuPmEefrivYHjAloBQkOLgQb4m1VrMJEm2747QNJfiA==' 
 def connection(tasks,query,types):
     table_service = TableService(account_name= acc_name, account_key=acc_key)
     table_service.create_table('customer')
