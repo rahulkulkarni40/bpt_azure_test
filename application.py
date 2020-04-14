@@ -53,4 +53,4 @@ def get_data():
     except requests.HTTPError as e:
         return str(e.response.content)
 
-app.run()
+app.run(host='127.0.0.1')
