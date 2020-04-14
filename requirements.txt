@@ -1,0 +1,5 @@
+flask
+pandas
+requests
+azure.storage
+azure.cosmosdb.table
